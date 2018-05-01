@@ -1,13 +1,30 @@
 # Hasklee
-A concolic testing engine for Haskell
+Hasklee is a concolic testing engine for Haskell which is implemented in python.
 
-How to run:
-Put input filename in hsInstrumenter.py
+Python Version: 2.7.13
+GHC Version: 7.10.2
 
-> python hsInstrumnter_v2.py
+Program Consists of two files: 
+
+     1. hsInstrumenter.py 
+     2. hasKlee.py
+     
+How to run the program:
+
+> python hsInstrumnter_v2.py inputFileName
 > python hasKlee_v2.py
 
-3 example files:
- 1. src.hs
- 2. guard.hs
- 3. guard2.hs
+Note: hsInstrumenter require input filename.
+
+The code in this directory supports funtions which supports:
+
+    - Arbitrary level of nestedes.
+    - One variable,  which by convention is named x1 in the parent function.
+    
+
+There are two other directories:
+     - multivariable
+     - examples
+     
+Multivariable directory contains the program which support multivarialbe functions.
+Examples directory contains 3 example input files.
