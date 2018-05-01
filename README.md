@@ -11,8 +11,9 @@ Program Consists of two files:
      
 How to run the program:
 
-> python hsInstrumnter_v2.py inputFileName
-> python hasKlee_v2.py
+> python hsInstrumnter.py inputFileName
+
+> python hasKlee.py
 
 Note: hsInstrumenter require input filename.
 
@@ -23,6 +24,7 @@ The code in this directory supports funtions which supports:
     
 
 There are two other directories:
+
      - multivariable
      - examples
      
