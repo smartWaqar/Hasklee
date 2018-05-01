@@ -1,16 +1,6 @@
 #!/usr/bin/env python3
 
 
-##############################################
-############ Version 1 #######################
-# Works for cases where:
-# Only 1 function
-# Function has only 1 variable
-# Pattern matcing with equal and not equal
-##############################################
-##############################################
-
-
 
 import os
 from pyparsing import *
